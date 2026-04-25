@@ -24,10 +24,3 @@ Installation et développement
 Remarques pour les développeurs
 - Permissions requises (voir `manifest.json`): `scripting`, `activeTab`.
 - Après modification des fichiers sources, recharger l'extension sur la page `chrome://extensions/` puis recharger l'onglet test.
-
-Tâches restantes (TODO)
-- Bouton « Ouvrir dans un nouvel onglet » en arrière-plan (`active:false`).
-- Scanner des `background-image` CSS pour inclure les images de fond.
-- Polish du popover (couleurs, animation).
-
-Si vous voulez que j'applique une de ces tâches maintenant, dites laquelle et je m'en occupe.
