@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // indicate we're starting checks (spinner shown via .checking)
     setStatus('Vérification des liens en cours...', true)
 
+    // hide all groups while checking so the popup reste propre
+    try {
+      const secs = document.querySelectorAll('.section')
+      secs.forEach(s => { s.style.display = 'none' })
+    } catch (e) {}
+
     chrome.scripting.executeScript(
       {
         target: { tabId: tab.id },

@@ -14,5 +14,4 @@
 - [x] Encadrer les catégories
 - [x] Détecter emails en texte libre
 - [x] Ajouter catégorie Téléchargements
-
-Si vous voulez que j'ajoute ou modifie des tâches, dites-moi lesquelles.
+- [x] Masquer les groupes pendant la vérification
