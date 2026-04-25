@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Show All Links",
+  "version": "1.0",
+  "description": "Affiche tous les liens d'une page, groupés en liens internes et externes.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Show All Links"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Show All Links</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Liens sur la page</h1>
+    <div id="summary"></div>
+    <div id="status" class="status">
+      <span class="spinner" aria-hidden="true"></span>
+      <span class="status-text">Prêt</span>
+    </div>
+    <div class="section section-broken">
+      <h2>Cassés</h2>
+      <ul id="broken-list"></ul>
+    </div>
+    <div class="section section-email">
+      <h2>Emails</h2>
+      <ul id="email-list"></ul>
+    </div>
+    <div class="section section-download">
+      <h2>Téléchargements</h2>
+      <ul id="download-list"></ul>
+    </div>
+    <div class="section section-internal">
+      <h2>Internes</h2>
+      <ul id="internal-list"></ul>
+    </div>
+    <div class="section section-external">
+      <h2>Externes</h2>
+      <ul id="external-list"></ul>
+    </div>
+    <div class="section section-images">
+      <h2>Images</h2>
+      <div id="image-list" class="image-grid"></div>
+    </div>
+    <div id="toast" class="toast" aria-hidden="true"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
